@@ -7,6 +7,7 @@
 	<title>Шматько Сергей - начинающий веб-разработчик</title>
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap&subset=cyrillic">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
 </head>
 <body>
 	<header class="hero">
@@ -24,13 +25,13 @@
 			<!-- /.hero-header -->
 			<div class="hero-content">
 				<div class="hero-text">
-					<span class="hero-subtitle">Начинающий веб-разработчик</span>
-					<h1 class="hero-title">Шматько Сергей</h1>
-					<p class="hero-description">Разрабатываю сайты для малого и среднего бизнеса. У меня можно заказать дизайн и верстку небольшого сайта или интернет-магазина</p>
-					<button class="button hero-button">Написать мне</button>
+					<span class="hero-subtitle wow fadeInLeft" data-wow-delay="0.2s">Начинающий веб-разработчик</span>
+					<h1 class="hero-title wow fadeInRight" data-wow-delay="0.4s">Шматько Сергей</h1>
+					<p class="hero-description wow fadeInLeft" data-wow-delay="0.6s">Разрабатываю сайты для малого и среднего бизнеса. У меня можно заказать дизайн и верстку небольшого сайта или интернет-магазина</p>
+					<button class="button hero-button wow fadeInRight" data-wow-delay="0.8s">Написать мне</button>
 				</div>
 				<!-- /.hero-text -->
-				<div class="hero-avatar">
+				<div class="hero-avatar wow fadeIn" data-wow-delay="1.4s">
 					
 				</div>
 				<!-- /.hero-avatar -->
@@ -106,25 +107,34 @@
 						</div>
 						<!-- /.contacts-mail -->
 						<div class="contacts-social">
-							<h4 class="contacts-title">Соцсети</h4>
-							<a href="https://t.me/shmatko20" class="contacts-link">https://t.me/shmatko20</a>
-							<a href="https://vk.com/id304350194" class="contacts-link">https://vk.com/id304350194</a>
+							<div class="contact-telegram">
+								<h4 class="contacts-title">Соцсети</h4>
+								<a href="https://t.me/shmatko20" class="contacts-link">https://t.me/shmatko20</a>
+							</div>	
+							<div class="contact-vk">
+								<a href="https://vk.com/id304350194" class="contacts-link">https://vk.com/id304350194</a>
+							</div>
 						</div>
 						<!-- /.contacts-social -->
+						<div class="social-links">
+							<a href="https://github.com/Serg8224/" class="social-link"><img src="image/social/github.svg" alt="github"></a>
+							<a href="https://twitter.com/Ej5BAhzl8gpexcg" class="social-link"><img src="image/social/twitter.svg" alt=""></a>
+							<a href="https://www.instagram.com/time.2.tilt/?hl=uk/" class="social-link"><img src="image/social/instagram.svg" alt="instagram"></a>
+							<a href="https://github.com/Serg8224/" class="social-link"><img src="image/social/facebook.svg" alt=""></a>
+						</div>
+						<!-- /.social-links -->
 					</div>
 					<!-- /.contacts-data -->
-					<div class="social-links">
-						<a href="https://github.com/Serg8224/" class="social-link"><img src="image/social/github.svg" alt="github"></a>
-						<a href="https://twitter.com/Ej5BAhzl8gpexcg" class="social-link"><img src="image/social/twitter.svg" alt=""></a>
-						<a href="https://www.instagram.com/time.2.tilt/?hl=uk/" class="social-link"><img src="image/social/instagram.svg" alt="instagram"></a>
-						<a href="https://github.com/Serg8224/" class="social-link"><img src="image/social/facebook.svg" alt=""></a>
-					</div>
-				<!-- /.social-links -->
+					<a href="#" class="contacts-policy">Политика конфиденциальности </a>
 				</div>
 				<!-- /.contact-text -->
 			</div>
 			<!-- /.contacts-block -->
 		</div>
 	</footer>
+
+	<script src="js/wow.min.js"></script>
+	<script src="js/main.js"></script>
+
 </body>
 </html>

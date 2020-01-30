@@ -48,7 +48,7 @@ body {
 }
 
 .hero-subtitle {
-	display: inline-block;
+	display: block;
 	font-size: 24px;
 	line-height: 28px;
 	color: #FFBB01;
@@ -134,8 +134,6 @@ body {
 	background: #FFFFFF;
 	box-shadow: -5px 5px 0px #FFC41D;
 	border-radius: 5px;
-	max-width: 380px;
-	max-height: 409px;
 	padding-top: 40px;
 	padding-left: 48px;
 	padding-right: 48px;
@@ -188,7 +186,6 @@ body {
 .contacts-data {
 	display: flex;
 	flex-wrap: wrap;
-	margin-bottom: 42px;
 	padding-left:100px;
 }
 .contacts-phone, .contacts-mail {
@@ -197,7 +194,16 @@ body {
 }
 .contacts-social {
 	flex-basis: 100%;
-
+	display: flex;
+   justify-content: space-between;
+   align-items: flex-end;
+   margin-bottom: 42px;
+}
+.contact-telegram {
+	width: 50%;
+}
+.contact-vk {
+	width: 50%;
 }
 .contacts-title {
 	font-weight: bold;
@@ -213,4 +219,13 @@ body {
 }	
 .contacts-link:hover {
 	text-decoration: underline;
+}
+.contacts-policy {
+	display: inline-block;
+	font-size: 15px;
+	line-height: 18px;
+	text-decoration-line: underline;
+	color: #A5A5A5;
+	margin-top: 72px;
+	padding-left: 99px;
 }
